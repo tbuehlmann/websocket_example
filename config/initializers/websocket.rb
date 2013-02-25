@@ -1,5 +1,4 @@
 EM.next_tick do
-  puts 'STAAAAAARTED.'
   @channel = EM::Channel.new
 
   # Simulate messages.
